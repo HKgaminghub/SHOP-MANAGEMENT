@@ -7,7 +7,7 @@ const otpGenerator = require('otp-generator');
 const path = require('path');
 
 // Corrected config path and destructured imports
-const { adminCollection, stockCollection, orderCollection, OTPCollection } = require("./config");
+const { adminCollection, stockCollection, orderCollection, OTPCollection } = require("./confnig");
 
 let USERNAME = "";
 
