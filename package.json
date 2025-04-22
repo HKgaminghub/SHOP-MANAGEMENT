@@ -1,4 +1,11 @@
 {
+  "name": "shop-management",
+  "version": "1.0.0",
+  "description": "A shop management system using Node.js and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "crypto": "^1.0.1",
