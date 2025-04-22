@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 // MongoDB Connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/shop-management')
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://haardbosamiya4:hard%402006@hard.azbxbco.mongodb.net/')
   .then(() => console.log('MongoDB Connected'))
   .catch(err => console.error('MongoDB Connection Error:', err));
 
